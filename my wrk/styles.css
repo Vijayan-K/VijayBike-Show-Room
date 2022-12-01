@@ -1,0 +1,84 @@
+body{
+    position:relative;
+    width: auto;
+    }
+    .navbar-nav{
+    padding:10px;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler;
+    text-shadow: 1.5px 2.5px  #020a0c;
+    
+    }
+    
+    .fixed-top{
+    background-color:gray;
+    }
+    
+    .carousel-inner img{
+    height:100%;
+    width:100%;
+    }
+    .carousel-caption{
+    font-family:italic;
+    text-align:center;
+    margin:0px;
+    font-size:25px;
+    color:#2031e6;
+    text-shadow:3px 2px 2px black;
+    font-family:stencil;
+    }
+/*-------------------------------*/
+#row1
+{
+    margin-left: 50px;
+    padding: 50px;
+}
+#row2
+{
+    margin-left: 50px;
+    padding: 50px;
+}
+/*-------------------------------*/
+#ser1
+{
+    padding:30px;
+    margin:10px;
+    margin-left:120px;
+    background-color:#f2f1ed;
+    border:1px solid #e8e8e3;
+}
+#ser1:hover
+{
+     background-color:orange;
+     border:1px solid black;
+}
+
+h5
+{
+    font-size:20px;
+    font-family:area block;
+}
+/*-------------------------------*/
+.fa-star
+{
+    color:red;
+}
+.active
+{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=deive-width,initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="booking style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Bike Booking</h1><br>
+    <div id="bike">
+        <img src="images/pulsarns160.png" alt="pulsar250" height="250px" width="320">
+        <div id="bikename">PULSAR <span style="color:orange;">NS160</span></div>
+        <div id="rate">1.30-/L
+        <button type="button" class="btn btn-outline-success">Book Now</button></div><br>
+        <div style="background-color:orange;width:150px;"><h5>Book now & Get</h5></div>
+            <ul>
+                <li>Tankfull Fuel</li>
+                <li>Helmate</li>
+                <li>Rain Cover</li>
+                <li>Tool</li>
+            </ul>
+    </div>
+    <div class="booking">
+        <h4>Bike Details</h4><br>
+        <form>
+            <label for="Bike" style="margin-left: 30px;">Select Bike Model  :</label>
+            <select name="Bike" id="bikes" style="margin-left:20px;width:250px;text-align: center;">
+                <option>pulsarNS160</option>
+                <option>pulsar250</option>
+                <option>pulsarNS200</option>
+            </select>
+            <select name="city" id="city" style="margin-left:30px;width:250px;text-align: center;">
+                <option>TamilNadu</option>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Andhara Pradesh</option>
+            </select><br><br>
+            <hr style="width: 700px;">
+        <h4>Personal Details</h4><br>
+            <label for="name" style="margin-left: 30px;">First & Last Name :</label>
+                <input type="text" id="name" name="name" placeholder="FName" style="width:250px;margin-left:20px">
+                <input type="text" id="name" name="fname" placeholder="LName" style="width:250px;margin-left:30px"><br><br>
+            <label for="name" style="margin-left: 30px;"> Email : </label>
+                <input type="email" id="mail" name="email" placeholder=" Enter your Email" style="width:250px;margin-left:105px"><br><br>
+            <label for="name" style="margin-left: 30px;"> Mobile Number :</label>
+                <input type="text"  placeholder="Enter your Mobile Number" style="width:250px;margin-left:30px"><br><br>
+            <hr style="width: 700px;">
+        <h4>Contact Details</h4><br>
+            <label for="name" style="margin-left: 30px;"> Your Address :</label>
+                <textarea rows="4" cols="50" style="width:550px;margin-left:55px"></textarea><br><br>
+                <label for="Bike" style="margin-left: 30px;">Your Location  :</label>
+                    <input type="text" id="city" name="city" placeholder="Enter your State" style="width:250px;margin-left:50px">
+                    <input type="text" id="city" name="city" placeholder="Enter your City" style="width:250px;margin-left:50px"><br><br>
+                <label for="Bike" style="margin-left: 30px;">Pin Code  :</label>
+                    <input type="text" id="number" name="number"  style="width:250px;margin-left:80px">
+                <br><br><br><br>
+                <button type="button" class="btn btn-outline-success" style="width:150px;margin-left:320px">Book Now</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
